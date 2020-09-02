@@ -1,0 +1,82 @@
+/* GLOBAL RESET */
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    
+    /* Typography */
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%; /* 1rem = 10px */
+    color: #555;
+
+    background-color: skyblue;
+}
+
+header {
+    text-align: center;
+    margin: 5rem 0 7.5rem 0;
+}
+
+.heading-1 {
+    font-weight: 300;
+    font-size: 4.0rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.heading-2 {
+    font-size: 1.6rem;
+}
+
+.scoreboard {
+    color: #000;
+    font-size: 4rem;
+    margin-bottom: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.5rem;
+    border: 2px solid;
+    padding: 1rem;
+    color: #f2f2f2;
+    background-color: rgb(1, 150, 1);
+}
+
+.score {
+    color: #000;
+    padding: 0 1rem;
+}
+
+.game {
+    text-align: center;
+}
+
+.heading-3 {
+    font-size: 2rem;
+}
+
+.buttons {
+    margin-top: 4rem;
+}
+
+.btn {
+    border-radius: 50%;
+}
+
+.btn:not(:first-child) {
+    margin-left: 2rem;;
+}
+
+.icon {
+    cursor: pointer;
+    height: 20rem;
+}
